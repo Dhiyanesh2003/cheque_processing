@@ -1,11 +1,7 @@
 # Submission Template for BoB Hackathon
 
-Please use ONLY this template as a starting point to setup your repository for submission into the BoB hackathon.
+<b>Automated Cheque Recognition System</b>
 
-To get started, click on the green [Use this template](https://github.com/bob-hackathon/submission-template/generate) button, and create a repository within your GitHub Account.
+We present here two scenarios where the end user would undergo. One is the online mode and the other is the offline mode. In online mode, A digital cheque is created at the bank side and circulated via their website where there would be a separate portal for uploading cheque from their net banking account. The user uploads his filled digital cheque and uploads in the portal. The filled cheque is made to undergo OCR and AI recognition to extract characters from the cheque and the extracted data is made to digitally sign with Aadhar EKYC in order to validate the authenticity of the data provided. The data is stored using the block chain concepts and later used by the bank to process the necessary details.
 
-Once you have created your repository within your GitHub account, [Install](https://github.com/bob-hackathon/hackathon-submitter#install) or [Configure](https://github.com/bob-hackathon/hackathon-submitter#configure) the Hackathon Submitter GitHub App on this repository.
-
-When you want to submit an idea/source code, go to the **Issues** tab of your repository, and and click on the **Get Started** button for the `Submit Idea` or `Submit Source Code`, based on what submission you want to make.
-
-For FAQs on how to structure your repository, please check [FAQs.md on the Hackathon Submitter repo](https://github.com/bob-hackathon/hackathon-submitter/blob/main/FAQ.md).
+The second mode is the offline mode where the user or the customer doesn’t have access to internet facility and so the customer fill up the given physical cheque and hand over it to the bank. The physical cheque is processed by using AI and OCR techniques and also the pre-defined MICR techniques is also added. The generated data is converted to a model and with extra EKYC support at the bank makes the data more secured and digitalized.
